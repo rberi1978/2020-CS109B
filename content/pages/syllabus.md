@@ -72,6 +72,8 @@ Upon successful completion of this course, you should feel comfortable with the 
 
 ### Course Components <a name='course-components'></a>
 There will be live video feed available only to continuing education students for lectures, labs, and advanced sections. Recordings for all other students will be available within 24 hrs.
+<br/>
+Video streams and recordings can be accessed from the <a href="https://canvas.harvard.edu/courses/65462/external_tools/61068">Videos</a> section on Canvas.
 
 #### Lectures <a name='lectures'></a>
 The class meets twice a week for lectures. Attending lectures is a crucial component of learning the material presented in this course.
@@ -89,13 +91,12 @@ At the end of each lecture, we will ask you to take a short, graded quiz on the 
 #### Advanced Sections <a name='advanced-sections'></a>
 The course will include advanced sections for 209b students and will cover a different topic per week. &nbsp;These are 75 min lectures and they will cover advanced topics like the mathematical underpinnings of the methods seen in lecture and lab and extensions of those methods. &nbsp;The material covered in the advanced sections is </span><strong>required </strong> for all AC209b students. Tentative topics are:
 
-* Earth Mover's Distance
-* Dropout
-* ConvNets: LeNet, AlexNet, VGG-15, ResNet and Inception
-* LSTM, GRU in NLP
-* Neural style transfer learning
-* Deep Reinforcement Learning
+* ResNet, Dense-Net, res-Next and Inception and transfer learning
+* Segmentation Techniques, YOLO, Unet and M-RCNN
+* RNN, Echo State
 * Variational Inference
+* GANS. Cycle GANS, etc.
+* RL
 
 #### Exams <a name='exams'></a>
 There are no exams in this course.
@@ -115,11 +116,14 @@ There will be eight graded homework assignments. Some of them will be due one we
 
 ### Course Resources <a name='course-resources'></a>
 #### Online Materials <a name='online-materials'></a>
-All course materials, including lecture notes, lab notes, and section notes will be published in the class GitHub (available soon).
+All course materials, including lecture notes, lab notes, and section notes will be published on the <a href="https://github.com/Harvard-IACS/2020-CS109B/tree/master/content">course GitHub repo</a> as well as the public site's <a href="https://harvard-iacs.github.io/2020-CS109B/pages/materials.html">Materials section</a>.
+<br/>
+**Note:** Lecture content for weeks 1-3 is only available to registered students through the Materals section.
+<br/>
 Assignments will only be posted on Canvas.
 
 #### Working Environment
-You will be working in Jupyter Notebooks which you can run in your own machine or in the SEAS JupyterHub cloud (details on this to come).
+You will be working in Jupyter Notebooks which you can run in your own machine or in the SEAS <a href="https://canvas.harvard.edu/courses/65462/external_tools/60899?display=borderless">JupyterHub</a> cloud (see <a href="https://harvard-iacs.github.io/2020-CS109B/labs/lab01/">lab 1</a> for details).
 
 #### Recommended Textbooks <a name="recommended-textbooks"></a>
 
