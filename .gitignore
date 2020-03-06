@@ -1,7 +1,7 @@
 #Pictures & Zipfiles
-/homeworks/data/*.jpg
-/homeworks/data/*.zip
-
+**/homeworks/data/*.jpg
+**/homeworks/data/*.zip
+**/homeworks/data/**/*.jpg
 
 # General
 .DS_Store
