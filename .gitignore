@@ -2,6 +2,7 @@
 **/homeworks/data/*.jpg
 **/homeworks/data/*.zip
 **/homeworks/data/**/*.jpg
+**/homeworks/data/**/*.zip
 
 # General
 .DS_Store
