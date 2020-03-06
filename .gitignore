@@ -1,3 +1,8 @@
+#Pictures & Zipfiles
+data/*.jpg
+data/*.zip
+
+
 # General
 .DS_Store
 .AppleDouble
