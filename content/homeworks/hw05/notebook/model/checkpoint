@@ -1,2 +1,2 @@
-model_checkpoint_path: "cae8_1"
-all_model_checkpoint_paths: "cae8_1"
+model_checkpoint_path: "lae"
+all_model_checkpoint_paths: "lae"
