@@ -7,6 +7,7 @@
 **/data/**/**.jpg
 **/data/**/**.zip
 **/data/*.h5
+**/data/*.h5.zip
 
 # General
 .DS_Store
