@@ -8,6 +8,7 @@
 **/data/**/**.zip
 **/data/*.h5
 **/data/*.h5.zip
+*.zip
 
 # General
 .DS_Store
