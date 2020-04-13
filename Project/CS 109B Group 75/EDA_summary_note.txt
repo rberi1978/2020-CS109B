@@ -1,0 +1,7 @@
+What we have learnt during our study of the dataset is that we need to understand and characterize 3 different aspects. 
+
+1. The galaxy itself, independent of an observer. Sersic index, flux, shear are some of its parameters.
+2. The observation instrument characteristics (telescope). Point spread function (PSF) is used for this.
+3. The environment noise, which could be the atmospheric noise, CCD detector noise etc.
+
+These are independent of each other, however, the final image that we have is affected by each of these. We would need to train a network to be able to “de-convolve” these aspects, and predict one or more of these parameters.
