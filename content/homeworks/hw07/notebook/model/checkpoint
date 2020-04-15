@@ -1,2 +1,2 @@
-model_checkpoint_path: "AE"
-all_model_checkpoint_paths: "AE"
+model_checkpoint_path: "VAE2"
+all_model_checkpoint_paths: "VAE2"
