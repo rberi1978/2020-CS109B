@@ -1,2 +1,2 @@
-model_checkpoint_path: "CVAE"
-all_model_checkpoint_paths: "CVAE"
+model_checkpoint_path: "GENERATOR"
+all_model_checkpoint_paths: "GENERATOR"
