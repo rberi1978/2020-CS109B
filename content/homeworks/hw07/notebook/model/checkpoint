@@ -1,2 +1,2 @@
-model_checkpoint_path: "GENERATOR_2"
-all_model_checkpoint_paths: "GENERATOR_2"
+model_checkpoint_path: "GENERATOR_4"
+all_model_checkpoint_paths: "GENERATOR_4"
