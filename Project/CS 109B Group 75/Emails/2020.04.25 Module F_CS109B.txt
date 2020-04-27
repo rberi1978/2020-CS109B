@@ -1,0 +1,90 @@
+From: "Finkbeiner, Douglas" <dfinkbeiner@cfa.harvard.edu>
+Date: Sat, 25 Apr 2020 11:22:02 -0400
+Message-ID: <CACNsoJKxHAo27Mf6FNNnGtLh8f005FrKT=+RoBsOgV1cQQwrbg@mail.gmail.com>
+Subject: Re: Module F_CS109B
+To: "Yin, Jun" <jyin@g.harvard.edu>
+Cc: Ethan Cowan <etc164@g.harvard.edu>, Pavlos Protopapas <pavlos@seas.harvard.edu>,
+	gracegreason@college.harvard.edu, evanarnold@college.harvard.edu,
+	asanneh@fas.harvard.edu, btao@college.harvard.edu,
+	michael_chen@college.harvard.edu, mchenevey@college.harvard.edu,
+	jconnolly@college.harvard.edu, rwood@college.harvard.edu,
+	daniel_cox@g.harvard.edu, hjoy@college.harvard.edu,
+	zachary.murray@cfa.harvard.edu, "Qiu, Ziwei" <ziweiqiu@g.harvard.edu>,
+	lbaker@seas.harvard.edu, "Ballard, Kyra" <kballard@g.harvard.edu>,
+	"Nelson, Kaela Wu" <kwnelson@hsph.harvard.edu>, rob9042@g.harvard.edu, suc724@g.harvard.edu,
+	dmv842@g.harvard.edu, annie.xu001@gmail.com,
+	Natalya Levitan <nal826@g.harvard.edu>, Katrine Pertsovski <kap868@g.harvard.edu>,
+	"Ram, Vin" <vir611@g.harvard.edu>
+Content-Type: multipart/alternative; boundary="000000000000620dd105a41f0ff6"
+
+--000000000000620dd105a41f0ff6
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi all,
+
+I mentioned that I would send a reference for the S=C3=A9rsic profile (gala=
+xy
+model) that plays a central role in this project.
+
+The first few pages of this useful paper from 2005 will tell you everything
+you need to know:
+https://arxiv.org/pdf/astro-ph/0503176.pdf
+
+Best,
+Doug
+
+
+On Mon, Apr 20, 2020 at 4:09 PM Yin, Jun <jyin@g.harvard.edu> wrote:
+
+> Hi all,
+>
+> This is the CS109B module F email list. Prof.Finkbeiner will share more
+> related readings with you. You can find today's lecture materials in the
+> google drive,
+> https://drive.google.com/drive/folders/1LHzI3fNDF0u_pWoPecue0vIgP2NATUHs?=
+usp=3Dsharing
+> .
+>
+>
+> Best,
+> Jun
+>
+
+
+--=20
+Douglas Finkbeiner
+Harvard-Smithsonian Center for Astrophysics
+https://astronomy.fas.harvard.edu/people/Douglas-Finkbeiner
+
+--000000000000620dd105a41f0ff6
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr">Hi all,=C2=A0<div><br></div><div>I mentio=
+ned that I would send a reference for the S=C3=A9rsic profile (galaxy model=
+) that plays a central role in this project.=C2=A0</div><div><br></div><div=
+>The first few pages of this useful paper from 2005 will tell you everythin=
+g you need to know:</div><div><a href=3D"https://arxiv.org/pdf/astro-ph/050=
+3176.pdf">https://arxiv.org/pdf/astro-ph/0503176.pdf</a><br></div><div><br>=
+</div><div>Best,</div><div>Doug</div><div><br></div></div></div><br><div cl=
+ass=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On Mon, Apr 20, 2=
+020 at 4:09 PM Yin, Jun &lt;<a href=3D"mailto:jyin@g.harvard.edu">jyin@g.ha=
+rvard.edu</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=
+=3D"margin:0px 0px 0px 0.8ex;border-left-width:1px;border-left-style:solid;=
+border-left-color:rgb(204,204,204);padding-left:1ex"><div dir=3D"ltr">Hi al=
+l,=C2=A0<div><br></div><div>This is the CS109B module F email list. Prof.Fi=
+nkbeiner will share more related readings with you. You can find today&#39;=
+s lecture materials in the google drive, <a href=3D"https://drive.google.co=
+m/drive/folders/1LHzI3fNDF0u_pWoPecue0vIgP2NATUHs?usp=3Dsharing" target=3D"=
+_blank">https://drive.google.com/drive/folders/1LHzI3fNDF0u_pWoPecue0vIgP2N=
+ATUHs?usp=3Dsharing</a>.=C2=A0</div><div><br></div><div><br></div><div>Best=
+,=C2=A0</div><div>Jun=C2=A0</div></div>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+ class=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr">Douglas F=
+inkbeiner<br>Harvard-Smithsonian Center for Astrophysics</div><div dir=3D"l=
+tr"><a href=3D"https://astronomy.fas.harvard.edu/people/Douglas-Finkbeiner"=
+ target=3D"_blank">https://astronomy.fas.harvard.edu/people/Douglas-Finkbei=
+ner</a><br></div></div></div></div>
+
+--000000000000620dd105a41f0ff6--
