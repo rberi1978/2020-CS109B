@@ -1,0 +1,133 @@
+From: "Finkbeiner, Douglas" <dfinkbeiner@cfa.harvard.edu>
+Date: Tue, 28 Apr 2020 10:45:09 -0400
+Message-ID: <CACNsoJJAWRwrHtF=GfzyKOvkve195MQXWEyZPPaBxU9LyuEkew@mail.gmail.com>
+Subject: Re: Module F_CS109B
+To: "Yin, Jun" <jyin@g.harvard.edu>
+Cc: Ethan Cowan <etc164@g.harvard.edu>, Pavlos Protopapas <pavlos@seas.harvard.edu>,
+	gracegreason@college.harvard.edu, evanarnold@college.harvard.edu,
+	asanneh@fas.harvard.edu, btao@college.harvard.edu,
+	michael_chen@college.harvard.edu,
+	Michael Chenevey <mchenevey@college.harvard.edu>, jconnolly@college.harvard.edu,
+	rwood@college.harvard.edu, daniel_cox@g.harvard.edu, hjoy@college.harvard.edu,
+	Zachary Murray <zachary.murray@cfa.harvard.edu>, "Qiu, Ziwei" <ziweiqiu@g.harvard.edu>,
+	lbaker@seas.harvard.edu, "Ballard, Kyra" <kballard@g.harvard.edu>,
+	"Nelson, Kaela Wu" <kwnelson@hsph.harvard.edu>, rob9042@g.harvard.edu, suc724@g.harvard.edu,
+	dmv842@g.harvard.edu, annie.xu001@gmail.com,
+	Natalya Levitan <nal826@g.harvard.edu>, Katrine Pertsovski <kap868@g.harvard.edu>,
+	"Ram, Vin" <vir611@g.harvard.edu>
+Content-Type: multipart/alternative; boundary="00000000000001226905a45ae57c"
+
+--00000000000001226905a45ae57c
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi all,
+
+I know there have been some questions about both the high level goals and
+the technical details of this project, so I wanted to:
+1. make a few clarifications in this email, and
+2. offer to be available for special* "weekend office hours" 9-12 on
+Saturday morning (May 2).*
+
+As we discussed, the overall task is to take a set of galaxy images and
+their labels (the 5 S=C3=A9rsic parameters) and train a neural net to recov=
+er
+the labels from the images.
+
+Some of you have mentioned doing the parameter estimation first with a more
+conventional approach as a baseline to compare to.  This is a reasonable
+thing to do and might (or might not!) be easier.
+
+I will note that non-linear optimization (and the S=C3=A9rsic model *is*
+non-linear in most of its parameters) is a non-trivial problem.  That's why
+a lot of people put a lot of effort into optimization algorithms decades
+ago, and some are quite sophisticated.  You may not want to try to reinvent
+this yourself.
+
+When I was a grad student in the 1990s I frequently used the dfpmin
+function in IDL.  This is basically the Broyden-Fletcher-Goldfarb-Shanno
+algorithm, which you can look up if you are interested.  You have easy
+access to an implementation via scipy.optimize( ... method=3D'BFGS').
+
+There is also Nelder-Mead, which I sort of consider "the last refuge of
+scoundrels" because it is so boneheaded and simple (and slow!) but it is
+also quite robust and almost always works.
+
+Either of those methods (or others) may give satisfactory results with
+little effort.  You generally need an initial guess that is not off by a
+ridiculous factor.  But in your case you can reasonably guess that the
+galaxy has a S=C3=A9rsic index of 3 (middle of the range), is round (g1=3Dg=
+2=3D0),
+has a radius of several pixels, and some flux.  You could always start with
+the same flux, or you could do something simple like take the pixel value
+in the center of the galaxy (probably the center of the image unless you
+are playing with image offsets) and then multiply that by several (since
+the galaxy covers many pixels).  You just need the initial guess to not be
+*Crazy* bad, and the optimizer should work.
+
+To get a feel for what g1, g2 mean, look at Figure 5 on page 16 of this
+paper <http://www.stat.cmu.edu/~inca/MeetingStuff/great08.pdf>.
+(The plot is labeled epsilon_1, epsilon_2.  Do not worry about that -- in
+this write-up epsilon is the intrinsic shape of the galaxy in this shear
+basis, and then an additional shear parameterized by g1,g2 is applied on
+top of it.  But it is the same "Shape basis" in Fig. 5 for both epsilon and
+g).  So you can see that g1=3Dg2=3D0 means "round."
+
+Another question we got is "Why is Jun using an autoencoder in her work?"
+ What Jun is doing for her research goes well beyond the scope of this
+project, and includes reconstructing the galaxy image.  We want it to work
+also in the case of real galaxies, not just S=C3=A9rsic models.  So don't w=
+orry
+about any of that, *you* do not need to use an autoencoder.
+
+I hope that helps -- if you want to talk more, we are there 9-12 on
+Saturday.  Jun can send a Zoom link shortly before.
+If you plan to drop in, please send us a time so that we can space people
+out and not have everyone show up at 11:30.
+Thanks!
+- Doug & Jun
+
+
+
+
+
+
+On Sat, Apr 25, 2020 at 11:22 AM Finkbeiner, Douglas <
+dfinkbeiner@cfa.harvard.edu> wrote:
+
+> Hi all,
+>
+> I mentioned that I would send a reference for the S=C3=A9rsic profile (ga=
+laxy
+> model) that plays a central role in this project.
+>
+> The first few pages of this useful paper from 2005 will tell you
+> everything you need to know:
+> https://arxiv.org/pdf/astro-ph/0503176.pdf
+>
+> Best,
+> Doug
+>
+>
+> On Mon, Apr 20, 2020 at 4:09 PM Yin, Jun <jyin@g.harvard.edu> wrote:
+>
+>> Hi all,
+>>
+>> This is the CS109B module F email list. Prof.Finkbeiner will share more
+>> related readings with you. You can find today's lecture materials in the
+>> google drive,
+>> https://drive.google.com/drive/folders/1LHzI3fNDF0u_pWoPecue0vIgP2NATUHs=
+?usp=3Dsharing
+>> .
+>>
+>>
+>> Best,
+>> Jun
+>>
+>
+>
+> --
+> Douglas Finkbeiner
+> Harvard-Smithsonian Center for Astrophysics
+> https://astronomy.fas.harvard.edu/people/Douglas-Finkbeiner
+>
