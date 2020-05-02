@@ -1,0 +1,22 @@
+22:10:32	 From Jun Yin : Do you mind send me a copy of the notebook?
+22:11:35	 From Ning Xu : I can send it to you
+22:11:41	 From Jun Yin : Thanks
+22:27:39	 From Jun Yin : A few things you guys could try:
+22:27:44	 From Jun Yin : Batch norm layer
+22:27:47	 From Jun Yin : Attention layer
+22:28:00	 From Jun Yin : Train for more epochs
+22:28:35	 From Jun Yin : Use scheduler to vary learning rate while training
+22:29:02	 From Jun Yin : Different batch  size, may be 64?
+22:29:50	 From Jun Yin : Overall, I think your results are pretty nice! Good work!
+22:33:21	 From Jun Yin : cat = f['cat'][:]  # [f/sig, f^2/1.41sig^2, f/var, f/var^2*sigma,psf, psf^2] where f is image and psf is the point spread function, sig is the sigma of gaussian noise level, var is the variance of the image
+22:33:33	 From Jun Yin : You could try use this to preprocess your image
+22:40:05	 From Ning Xu : A= random.uniform(0,0.67)    # gal_q =b/a will ranges in (0.2,1) & A=1-q / 1+q 
+    gal_q=(1- A ) /(1+ A ) 
+    gal_beta = random.uniform(0,3.14)        #  radians     
+    g_1=A *np.cos(2*gal_beta)
+    g_2=A *np.sin(2*gal_beta)
+22:41:18	 From Jun Yin : g_1=gal_q *np.cos(2*gal_beta)
+22:41:35	 From Jun Yin : g_2=gal_q*np.sin(2*gal_beta)
+22:42:25	 From Jun Yin : ----
+22:42:25	 From Jun Yin : g_1=A *np.cos(2*gal_beta)     g_2=A *np.sin(2*gal_beta)
+22:45:37	 From Rohit Beri to Jun Yin (Privately) : I have emailed you my notebook
