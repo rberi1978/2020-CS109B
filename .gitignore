@@ -12,6 +12,7 @@
 **/*.zip
 **/Project/model/*.*
 **/Project/Ideation*.*
+**/Project/Ideation_*.ipynb
 
 # General
 .DS_Store
