@@ -11,6 +11,7 @@
 *.zip
 **/*.zip
 **/Project/model/*.*
+**/Project/Ideation*.*
 
 # General
 .DS_Store
